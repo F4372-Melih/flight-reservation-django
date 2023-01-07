@@ -1,0 +1,24 @@
+PROJECT_PLAN
+
+make:
+-Flight,
+-Reservation,
+-Passenger,
+Tables.
+
+
+
+#Flight
+
+  -Client_users
+    +views upcoming flights
+  -Staff members
+    +views all flights with Reservation
+    +CRUD Flights
+
+#Reservation
+
+  -Client_users
+    +CRUD Reservation (only their own Reservations)
+  -Staff members
+    +CRUD Reservations
